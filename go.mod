@@ -1,4 +1,4 @@
-module go.elastic.co/apm/v2
+module github.com/adilsitos/apm-agent-go
 
 require (
 	github.com/armon/go-radix v1.0.0
