@@ -1,4 +1,4 @@
-module go.elastic.co/apm/module/apmfiber/v2
+module github.com/adilsitos/apm/module/apmfiber/v2
 
 require (
 	github.com/gofiber/fiber/v2 v2.18.0
@@ -6,6 +6,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/valyala/fasthttp v1.34.0
 	go.elastic.co/apm/module/apmfasthttp/v2 v2.4.3
+	go.elastic.co/apm/module/apmfiber/v2 v2.4.3
 	go.elastic.co/apm/module/apmhttp/v2 v2.4.3
 	go.elastic.co/apm/v2 v2.4.3
 )
