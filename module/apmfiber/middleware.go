@@ -62,7 +62,7 @@ func (m *middleware) handle(c *fiber.Ctx) error {
 		return c.Next()
 	}
 
-	name := string(reqCtx.Method()) + " " + c.Path()
+	name := string(reqCtx.Method()) + " " + c.Route().Path
 	tx, body, err := apmfasthttp.StartTransactionWithBody(reqCtx, m.tracer, name)
 	if err != nil {
 		reqCtx.Error(err.Error(), http.StatusInternalServerError)
