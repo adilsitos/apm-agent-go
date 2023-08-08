@@ -1,4 +1,4 @@
-module github.com/adilsitos/apm-agent-go/module/apmfiber/v2
+module github.com/adilsitos/apm/module/apmfiber/v2
 
 require (
 	github.com/gofiber/fiber/v2 v2.18.0
